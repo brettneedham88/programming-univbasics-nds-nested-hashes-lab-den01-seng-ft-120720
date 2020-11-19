@@ -7,8 +7,6 @@ KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
-  # Build an array that contains (or, "nests") the constants into a single
-  # Array. Ruby constants are denoted by ALL_CAPS
 person1 = { name:  "Don Gately", occupation: "Live-in Staff" }
 person2 = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
 person3 =  { name:  "Pat Monteseian", occupation: "Staff" }
@@ -25,8 +23,6 @@ person5 = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 end
 
 def literal_aoh
-  # Using Array literal syntax only, build a nested array that uses the data in
-  # held in the constants
   array = [
     {:name=>"Don Gately", :occupation=>"Live-in Staff"}, 
     {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
