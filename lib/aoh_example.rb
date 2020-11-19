@@ -10,11 +10,11 @@ def assembled_aoh
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
   array = [
-  {DON_G=>"Don Gately", occupation: "Live-in Staff" }
-  {JOELLE_VD=>"Joelle van Dyne", occupation: "Radio Personality" }
-  {PAT_M =>"Pat Monteseian", occupation: "Staff" }
-  {KATE_G =>"Kate Gompert", occupation: "None" }
-  {BRUCE_G =  name:  "Bruce Green", occupation: "Fan of Mildred" }
+  {DON_G=>"Don Gately", :occupation=>"Live-in Staff" }
+  {JOELLE_VD=>"Joelle van Dyne", :occupation=>"Radio Personality" }
+  {PAT_M=>"Pat Monteseian", :occupation=>"Staff" }
+  {KATE_G=>"Kate Gompert", :occupation=>"None" }
+  {BRUCE_G=>"Bruce Green", :occupation=>"Fan of Mildred" }
   ]
 end
 
